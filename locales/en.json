@@ -1,0 +1,9 @@
+{
+    "Welcome": "Welcome",
+    "Error": "Error",
+    "Page not found": "Page not found",
+    "Requested url %s not found": "Requested url <strong>%s</strong> not found",
+    "You are not authorized or session has expired. Please login": "You are not authorized or session has expired. Please login",
+    "Server error": "Server error",
+    "Authorization required": "Authorization required"
+}

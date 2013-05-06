@@ -1,0 +1,11 @@
+*.log
+*.dat
+
+npm-debug.log
+logs
+node_modules
+
+.sass-cache
+.DS_Store
+._.DS_Store
+.idea

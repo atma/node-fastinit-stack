@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ locale }}"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ locale }}"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ locale }}"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="{{ locale }}"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block meta %}{% endblock %}
+
+    <title>{% block title %}{% endblock %} - {{ config.appname }}</title>
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/app.css">
+    {% block styles %}{% endblock %}
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script>
+        document.write('<script src="' +
+            ('__proto__' in {} ? '//cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js' : '//ajax.googleapis.com/ajax/libs/jquery/2/jquery.min.js') +
+            '"><\/script>');
+    </script>
+    <script src="/scripts/app.js"></script>
+
+    {% block scripts %}{% endblock %}
+</head>
+<body>
+
+{% block header %}{% endblock %}
+
+{% block body %}{% endblock %}
+
+</body>
+</html>

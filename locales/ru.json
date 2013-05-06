@@ -1,0 +1,9 @@
+{
+	"Welcome": "Добро пожаловать",
+	"Error": "Ошибка",
+	"Page not found": "Страница не найдена",
+	"Requested url %s not found": "Страница по адресу <strong>%s</strong> не найдена",
+	"You are not authorized or session has expired. Please login": "Вы не авторизованы или сессия истекла. Пожалуйста залогинтесь",
+	"Server error": "Ошибка сервера",
+	"Authorization required": "Необходима авторизация"
+}

@@ -1,0 +1,8 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ __('Page not found') }}{% endblock %}
+
+{% block body %}
+<h1>404</h1>
+<p>{{ __('Requested url %s not found', url) }}</p>
+{% endblock %}
